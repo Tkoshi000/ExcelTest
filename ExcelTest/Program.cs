@@ -28,7 +28,7 @@ namespace ExcelTest
 
 				///bookよみこみ
 				var book = WorkbookFactory.Create(XlsFilePath);
-				xlsxsheetmodel.SheetName = "SetPrint";
+				xlsxsheetmodel.SheetName = "test4";
 
 				List<string> sheetNameList = new List<string>();
 				for (int i = 0; i < book.NumberOfSheets; i++)
